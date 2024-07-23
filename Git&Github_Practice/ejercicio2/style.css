@@ -1,0 +1,73 @@
+.container {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+ul{
+    width: 430px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+i {
+    display: flex;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    color: #868686;
+    border-radius: 10px;
+    width: 50px;
+    transition: all 0.5s ease; /* Add transition for smooth effect */
+}
+
+#map:hover {
+    width: 70px;
+    background: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#cog:hover {
+    width: 70px;
+    background: rgb(0, 109, 199);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#globe:hover {
+    width: 70px;
+    background: rgb(31, 187, 0);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#cart:hover {
+    width: 70px;
+    background: rgb(132, 0, 255);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#edit:hover {
+    width: 70px;
+    background: rgb(255, 166, 0);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
