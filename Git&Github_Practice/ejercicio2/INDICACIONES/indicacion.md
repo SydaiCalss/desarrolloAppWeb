@@ -1,6 +1,5 @@
 # Ejercicio 1
-Completa el archivo CSS para que el login tenga la apariencia similar a la que se muestra a continuacion
+Completa el archivo CSS para darle la animacion a la lista de iconos.
+Estos deben cambiar de color y el contenedor donde esta ubicados aumentarán su tamaño
 
-## Screenshots
-
-![Login](./example.png)
+asi como se muestra en el video
